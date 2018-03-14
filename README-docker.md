@@ -122,4 +122,11 @@ services:
 
 volumes:
  bitshares-fullnode:
+ bitshares-delayed_node:
+
+```
+For RUN docker-compose, you need run command:
+```
+docker image build -t bitshares/bitshares-core .
+docker-compose up
 ```
